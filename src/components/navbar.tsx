@@ -141,16 +141,28 @@ export default function Navbar() {
                 </div>
                 <div className="space-y-4">
                   <div>
-                    <motion.p variants={itemVariants} className="text-white"> First Link</motion.p>
+                    <motion.p variants={itemVariants} className="text-white">
+                      {" "}
+                      First Link
+                    </motion.p>
                   </div>
                   <div>
-                    <motion.p variants={itemVariants} className="text-white"> Second Link</motion.p>
+                    <motion.p variants={itemVariants} className="text-white">
+                      {" "}
+                      Second Link
+                    </motion.p>
                   </div>
                   <div>
-                    <motion.p variants={itemVariants} className="text-white"> Third Link</motion.p>
+                    <motion.p variants={itemVariants} className="text-white">
+                      {" "}
+                      Third Link
+                    </motion.p>
                   </div>
                   <div>
-                    <motion.p variants={itemVariants} className="text-white"> Fourth Link</motion.p>
+                    <motion.p variants={itemVariants} className="text-white">
+                      {" "}
+                      Fourth Link
+                    </motion.p>
                   </div>
                 </div>
               </div>
